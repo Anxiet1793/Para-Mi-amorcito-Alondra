@@ -63,7 +63,7 @@ const messages = [
     "Ok empezare a llorar",
     "Paro de llorar si dices que si",
     "Dejare de preguntar porque lloro mucho",
-    "Estoy bromeando di que si o no te doy a nutriales❤️"
+    "Estoy bromeando di que si o no te doy a baby nutria❤️"
 ];
 
 let messageIndex = 0;
