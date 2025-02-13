@@ -3,10 +3,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
     margin: 0;
     background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
+    font-family: 'apple chancery'  ;
+    flex-direction: column;
 }
 
 .container {
@@ -14,12 +15,18 @@ body {
 }
 
 .header_text {
-    font-size: 3em;
+    font-size: 4em;
     color: #d32f2f;
 }
-
+.photos_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crea 2 columnas del mismo tamaño */
+    gap: 20px; /* Espacio entre las fotos */
+    padding: 20px;
+}
 .gif_container img {
+    border-radius: 10px;
     width: 100%; 
-    max-width: 500px; 
+    max-width: 300px; 
     height: auto; 
 }
